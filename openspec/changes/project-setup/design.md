@@ -25,7 +25,7 @@ The repository holds only the roadmap file and the OpenSpec setup. No Flutter pr
 
 **Use a plain Git hook in `.githooks/pre-commit` and set `core.hooksPath`.** It needs no extra tool, and the file is versioned. Alternatives: `lefthook` or the `pre-commit` framework, which add a tool for one command. The tasks include a one-line setup step in the README, because Git does not enable `core.hooksPath` on clone.
 
-**CI runs on `macos-latest` with `subosito/flutter-action`, pinned to a Flutter version.** The workflow runs `flutter analyze` and `flutter test`. A pinned version keeps builds repeatable. We pin GitHub Actions to full commit hashes and run `zizmor` on the workflow, as the project rules require.
+**CI runs on `ubuntu-latest` (Linux) and `macos-latest` (macOS) with `subosito/flutter-action`, pinned to a Flutter version.** Both jobs run `flutter analyze` and `flutter test`. A separate web job runs `flutter test --platform chrome`. A pinned version keeps builds repeatable. We pin GitHub Actions to full commit hashes and run `zizmor` on the workflow, as the project rules require.
 
 ## Risks / Trade-offs
 
