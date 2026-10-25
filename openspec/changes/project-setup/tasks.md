@@ -2,7 +2,7 @@
 
 ## 1. Flutter project
 
-- [x] 1.1 Make sure that Flutter is installed, then run `flutter create --platforms=ios --project-name interval_timer .` in the repository root. Verify that `flutter analyze` runs.
+- [x] 1.1 Make sure that Flutter is installed, then run `flutter create --platforms=ios,linux,macos,web --project-name interval_timer .` in the repository root. Verify that `flutter analyze` runs.
 - [x] 1.2 Create the folders `lib/src/{models,services,repositories,controllers,ui}` with a `.gitkeep` file in each. Verify that all five folders exist.
 - [x] 1.3 Replace the generated counter demo with a minimal app shell in `lib/main.dart` and update the generated widget test to match. Verify that `flutter test` passes.
 

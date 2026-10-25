@@ -2,7 +2,7 @@
 
 ## Context
 
-The repository holds only the roadmap file and the OpenSpec setup. No Flutter project exists. The Flutter SDK is not installed in the current sandbox, so project creation and checks must run where Flutter is available. The app targets iOS first.
+The repository holds only the roadmap file and the OpenSpec setup. No Flutter project exists. The Flutter SDK is not installed in the current sandbox, so project creation and checks must run where Flutter is available. The app targets iOS first. Linux, macOS, and web targets exist so that tests can run on them.
 
 ## Goals / Non-Goals
 
@@ -12,12 +12,12 @@ The repository holds only the roadmap file and the OpenSpec setup. No Flutter pr
 
 **Non-Goals:**
 - No domain code, no timer logic, no screens. The generated counter demo is replaced by a minimal app shell.
-- No Android, web, or desktop targets.
+- No Android target. Linux, macOS, and web exist for testing only, not for release.
 - No release or signing setup.
 
 ## Decisions
 
-**Create the project in the repository root with `flutter create --platforms=ios --project-name interval_timer .`.** The repository is the app, so a sub-folder only adds a path level. The name `interval_timer` follows the roadmap title and is a safe Dart package name. Alternative: a sub-folder, which suits monorepos, but we do not need one.
+**Create the project in the repository root with `flutter create --platforms=ios,linux,macos,web --project-name interval_timer .`.** The repository is the app, so a sub-folder only adds a path level. The name `interval_timer` follows the roadmap title and is a safe Dart package name. Alternative: a sub-folder, which suits monorepos, but we do not need one.
 
 **Use `very_good_analysis` through `include:` in `analysis_options.yaml`.** It is the lint set the roadmap names, and it needs no custom rule list. Alternative: `flutter_lints`, which is less strict and does not meet the roadmap quality bar.
 
