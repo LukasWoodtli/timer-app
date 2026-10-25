@@ -18,7 +18,7 @@
 
 ## 4. CI
 
-- [ ] 4.1 Add `.github/workflows/ci.yml` that runs `flutter analyze` and `flutter test` on `ubuntu-latest` and `macos-latest` (each followed by `flutter build linux` or `flutter build macos`, with the GTK packages installed first on Linux), and `flutter test --platform chrome` for web, with a pinned Flutter version and actions pinned to commit hashes. Verify that the workflow passes on a pull request.
+- [x] 4.1 Add `.github/workflows/ci.yml` that runs `flutter analyze` and `flutter test` on `ubuntu-latest` and `macos-latest` (each followed by `flutter build linux` or `flutter build macos`, with the GTK packages installed first on Linux), and `flutter test --platform chrome` for web, with a pinned Flutter version and actions pinned to commit hashes. Verify that the workflow passes on a pull request.
 - [x] 4.2 Run `zizmor` on the workflow file. Verify that it reports no findings.
 
 ## Workflow follow-up
