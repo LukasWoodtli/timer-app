@@ -23,10 +23,10 @@
 
 ## 5. Integration checks
 
-- [ ] 5.1 Add the barrel file `lib/src/models/models.dart` and remove `lib/src/models/.gitkeep`. Verify that `flutter analyze` reports zero issues.
-- [ ] 5.2 Run `flutter test --coverage`. Verify that `coverage/lcov.info` shows 100% line coverage for the three handwritten model files.
-- [ ] 5.3 Search `lib/src/models/` for `package:flutter`. Verify that there are no matches.
-- [ ] 5.4 Run the pre-commit hook (`.githooks/pre-commit`). Verify that it passes with the generated files committed.
+- [x] 5.1 Add the barrel file `lib/src/models/models.dart` and remove `lib/src/models/.gitkeep`. Verify that `flutter analyze` reports zero issues.
+- [x] 5.2 Run `flutter test --coverage`. Verify that `coverage/lcov.info` shows 100% line coverage for the three handwritten model files.
+- [x] 5.3 Search `lib/src/models/` for `package:flutter`. Verify that there are no matches.
+- [x] 5.4 Run the pre-commit hook (`.githooks/pre-commit`). Verify that it passes with the generated files committed.
 
 ## Workflow follow-up
 
