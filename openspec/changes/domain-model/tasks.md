@@ -13,8 +13,8 @@
 
 ## 3. Workout
 
-- [ ] 3.1 Write failing tests in `test/models/workout_test.dart` for every `Workout` scenario in `specs/workouts/spec.md`. Verify that `flutter test test/models/` fails.
-- [ ] 3.2 Add `Workout` in `lib/src/models/workout.dart` and run `build_runner`. Verify that the tests from 3.1 pass.
+- [x] 3.1 Write failing tests in `test/models/workout_test.dart` for every `Workout` scenario in `specs/workouts/spec.md`. Verify that `flutter test test/models/` fails.
+- [x] 3.2 Add `Workout` in `lib/src/models/workout.dart` and run `build_runner`. Verify that the tests from 3.1 pass.
 
 ## 4. Workout session
 
