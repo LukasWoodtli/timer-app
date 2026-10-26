@@ -8,8 +8,8 @@
 
 ## 2. Interval phase
 
-- [ ] 2.1 Write failing tests in `test/models/interval_phase_test.dart` for every `IntervalPhase` scenario in `specs/workouts/spec.md`. Verify that `flutter test test/models/` fails.
-- [ ] 2.2 Add `PhaseType`, the `durationSeconds` converter, and `IntervalPhase` in `lib/src/models/interval_phase.dart`, and run `dart run build_runner build --delete-conflicting-outputs`. Verify that the tests from 2.1 pass.
+- [x] 2.1 Write failing tests in `test/models/interval_phase_test.dart` for every `IntervalPhase` scenario in `specs/workouts/spec.md`. Verify that `flutter test test/models/` fails.
+- [x] 2.2 Add `PhaseType`, the `durationSeconds` converter, and `IntervalPhase` in `lib/src/models/interval_phase.dart`, and run `dart run build_runner build --delete-conflicting-outputs`. Verify that the tests from 2.1 pass.
 
 ## 3. Workout
 
