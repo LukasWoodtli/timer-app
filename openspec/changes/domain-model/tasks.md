@@ -2,9 +2,9 @@
 
 ## 1. Dependencies and analyzer
 
-- [ ] 1.1 Add `freezed_annotation`, `json_annotation`, and `uuid` as dependencies, and `freezed`, `json_serializable`, and `build_runner` as dev dependencies. Verify that `flutter pub get` succeeds.
-- [ ] 1.2 Add `**/*.freezed.dart` and `**/*.g.dart` to `analyzer.exclude` in `analysis_options.yaml`. Verify that `flutter analyze` reports zero issues.
-- [ ] 1.3 Write a throwaway model with a freezed plain-class constructor that has a body and `fromJson`. Run `build_runner`. Verify that the generated code compiles, then delete the throwaway model. If it fails, stop and ask before you change the approach.
+- [x] 1.1 Add `freezed_annotation`, `json_annotation`, and `uuid` as dependencies, and `freezed`, `json_serializable`, and `build_runner` as dev dependencies. Verify that `flutter pub get` succeeds.
+- [x] 1.2 Add `**/*.freezed.dart` and `**/*.g.dart` to `analyzer.exclude` in `analysis_options.yaml`. Verify that `flutter analyze` reports zero issues.
+- [x] 1.3 Write a throwaway model with a freezed plain-class constructor that has a body and `fromJson`. Run `build_runner`. Verify that the generated code compiles, then delete the throwaway model. If it fails, stop and ask before you change the approach.
 
 ## 2. Interval phase
 

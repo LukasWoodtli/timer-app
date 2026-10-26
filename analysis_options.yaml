@@ -7,3 +7,5 @@ analyzer:
     - web/**
     - macos/**
     - linux/**
+    - "**/*.freezed.dart"
+    - "**/*.g.dart"
